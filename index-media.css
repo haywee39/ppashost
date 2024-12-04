@@ -1,0 +1,191 @@
+@media (width < 912px){
+  .navbar {
+    height: 12vh;
+    width: 100vw;
+}
+
+.navbar-brand img {
+    width: 65px;
+    height: 65px;
+    margin-left: 0;
+}
+
+.navbar-collapse {
+    background-color: #69140e; /* Solid background for the collapsed menu */
+}
+
+.navbar-nav .nav-link {
+    color: white; /* Ensure the text is visible */
+}
+
+.dropdown-menu {
+    background-color: #69140e; /* Solid background for dropdown items */
+    border: none; /* Remove any borders */
+}
+
+.dropdown-item {
+    color: white; /* Ensure dropdown items are visible */
+}
+
+.dropdown-item:hover {
+    background-color: #d58936; /* Highlight on hover */
+    color: white;
+}
+
+/* Optional: Add a shadow for better visibility */
+.navbar-collapse,
+.dropdown-menu {
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+      /* ************************************************* */
+      #home{
+        height: 100vh;
+      }
+      .content{
+        height: 90vh;
+        width: 100vw;
+      }
+
+      .content h1{
+        margin-top: 20px;
+        font-size: 60px;
+        letter-spacing: 3px;
+        text-align: center;
+        word-spacing: 30px;
+        
+      }
+      .content h3{
+        font-size: 25px;
+      }
+      /* ****************************************************** */
+
+      #promo{
+        height: 50vh;
+
+      }
+      /* ******************************************************** */
+      #about{
+        width: 100vw;
+        height: auto;
+      }
+
+       .core-vision-mission{
+        display: flex;
+        flex-direction: column;
+        height: 145vh;
+        width: 100vw;
+      }
+      .believe{
+        width: 95vw;
+        height: 40vh;
+        text-align: center;
+        padding-left: 0;
+      }
+      /* ********************************************************** */
+      .about-ppas-container{
+        margin-top: 5vh;
+        padding-top: 0;
+        height: auto;
+      }
+      .about-ppas-container::before{
+        content: '';
+        position: absolute;
+        top: 0;
+        right: 0;
+        left: 0;
+        bottom: 0;
+        background-image: url(./pageswitback/helmet.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        /* opacity: 0.3; */
+    }
+    
+      .texts{
+        width: 95vw;
+        height: 145vh;
+      }
+      .texts img{
+        width: 180px;
+        height: 180px;
+      }
+      .text h1{
+        font-size: 25px;
+      }
+
+      /* ********************************************************* */
+      .project{
+        margin-top: 7vh;
+        height: auto;
+        /* background-color: orange; */
+      }
+    
+      .project-head{
+        margin-top: 2vh;
+        display: flex;
+        flex-direction: column;
+        width: 95vw;
+        height: 60vh;
+        justify-content: center;
+        align-items: center;
+        /* background-color: yellow; */
+      }
+      .project-grid{
+        height: auto;
+        margin: 2vh;
+        gap: 20px;
+      }
+    
+      .project-item{
+        width: 300px;
+        height: 40vh;
+      }
+      .lightbox{
+        margin-top: 10vh;
+      }
+    
+      .lightbox-content {
+        background-color: black;
+        width: 85vw;
+        height: 55vh;
+      }
+      /* *************************************************************** */
+
+      #reach-out{
+        height: auto;
+        display: flex;
+        flex-direction: column;
+      }
+
+      .xyz{
+        width: 100vw;
+        height: 50vh;
+      }
+      .men-at-work{
+        height: 50vh;
+        width: 100vw;
+        margin-bottom: 0;
+      }
+
+      .slide-in-image {
+        width: 80vw; /* Adjust to the desired image size */
+        height: 50vh;
+        padding-left: 80px;
+      }
+      /* ************************************************************** */
+
+      footer{
+        display: flex;
+        width: 100vw;
+        height: 12vh;
+        justify-content: center;
+        align-items: center;
+      }
+  
+      .foot{
+        display: flex;
+        width: 100%;
+        height: 100%;
+      }
+    
+}
