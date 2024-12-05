@@ -63,25 +63,18 @@
   .texts p{
     font-size: 17px;
   }
-  /* ***************************** */
+  /* **************************************************8***** */
   .project{
     margin-top: 0;
     height: auto;
   }
   .project-head {
     margin-top: 0;
-    /* font-family: fantasy; */
-    /* font-size: 20px; */
-    /* color: #69140e; */
-    }
+  }
   
-    .project-head p{
-      font-size: 17px;
-      /* color: #69140e; */
-      }
-
-
-  
+  .project-head p{
+    font-size: 17px;
+  }
 
 }
 
