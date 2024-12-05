@@ -7,13 +7,14 @@
    .core-vision-mission{
     display: flex;
     flex-direction: column;
-    height: 315vh;
+    height: 265vh;
     width: 100vw;
+    background-color: aqua;
   }
   .believe{
     display: flex;
-    width: 98vw;
-    height: 75vh;
+    width: 100vw;
+    height: 80vh;
     text-align: center;
     justify-content: center;
     padding-left: 0;
@@ -30,6 +31,21 @@
     /* height: 80%; */
   }
   /* ********************************************************** */
+  .texts{
+    width: 98vw;
+    height: 145vh;
+  }
+  .texts img{
+    width: 150px;
+    height: 150px;
+  }
+  .text h1{
+    font-size: 23px;
+  }
+  .texts p{
+    font-size: 16px;
+  }
+
   
 
 }
@@ -129,7 +145,7 @@
         padding-top: 0;
         height: auto;
       }
-      .about-ppas-container::before{
+      /* .about-ppas-container::before{
         content: '';
         position: absolute;
         top: 0;
@@ -139,8 +155,8 @@
         background-image: url(./pageswitback/helmet.jpg);
         background-repeat: no-repeat;
         background-size: cover;
-        /* opacity: 0.3; */
-    }
+        opacity: 0.3;
+    } */
     
       .texts{
         width: 95vw;
