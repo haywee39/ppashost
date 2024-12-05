@@ -72,14 +72,14 @@
   .our-team{
     width: 100vw;
     height: 35vh;
-    background-color: yellow;
+    /* background-color: yellow; */
   }
   .our-team p{
     display: flex;
     /* height: 55vh; */
     width: 50vw;
     font-size: 17px;
-    background-color: red;
+    /* background-color: red; */
   }
 
   /* ************************************************************* */
@@ -98,6 +98,17 @@
     height: 70vh;
     /* background-color: #f8de7e; */
   }
+  /* ***************************************************** */
+  .man{
+    width: 100vw;
+    height: auto;
+    background-color: yellow;
+}
+/* ****************************************************** */
+#reach-out{
+  margin-top: 4vh;
+  padding-top: 10px;
+}
 
 }
   /* ********************************************************************** */
@@ -246,6 +257,7 @@
         height: 60vh;
         /* background-color: #f8de7e; */
       }
+      /* ***************************************************** */
 
       .man{
         margin-top: 5vh;
@@ -254,7 +266,7 @@
       }
       .slider .list .item img{
         width: 50%;
-    }
+      }
 
       #reach-out{
         height: auto;
