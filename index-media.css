@@ -9,7 +9,7 @@
     flex-direction: column;
     height: 265vh;
     width: 100vw;
-    background-color: aqua;
+    /* background-color: aqua; */
   }
   .believe{
     display: flex;
@@ -30,12 +30,26 @@
   }
   /* ********************************************************** */
   .about-ppas-container{
+    margin-top: 5vh;
+    padding-top: 0;
     height: auto;
-    width: 100vw;
+  }
+  .about-ppas-container::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background-image: url(./pageswitback/helmet.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* opacity: 0.3; */
   }
   .texts{
     width: 95vw;
     height: 145vh;
+    background-color: red;
   }
   .texts img{
     width: 130px;
@@ -46,8 +60,24 @@
     font-size: 20px;
   }
   .texts p{
-    font-size: 16px;
+    font-size: 17px;
   }
+  /* ***************************** */
+  .project{
+    margin-top: 0;
+    height: auto;
+  }
+  .project-head h1{
+    /* font-family: fantasy; */
+    font-size: 20px;
+    /* color: #69140e; */
+    }
+  
+    .project-head p{
+      font-size: 17px;
+      /* color: #69140e; */
+      }
+
 
   
 
@@ -148,7 +178,7 @@
         padding-top: 0;
         height: auto;
       }
-      /* .about-ppas-container::before{
+      .about-ppas-container::before{
         content: '';
         position: absolute;
         top: 0;
@@ -158,8 +188,8 @@
         background-image: url(./pageswitback/helmet.jpg);
         background-repeat: no-repeat;
         background-size: cover;
-        opacity: 0.3;
-    } */
+        /* opacity: 0.3; */
+    }
     
       .texts{
         width: 95vw;
