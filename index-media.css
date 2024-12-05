@@ -49,7 +49,7 @@
   .texts{
     width: 95vw;
     height: 145vh;
-    background-color: red;
+    /* background-color: red; */
   }
   .texts img{
     width: 130px;
@@ -58,6 +58,7 @@
   }
   .text h1{
     font-size: 20px;
+    font-weight: bolder;
   }
   .texts p{
     font-size: 17px;
@@ -67,9 +68,10 @@
     margin-top: 0;
     height: auto;
   }
-  .project-head h1{
+  .project-head {
+    margin-top: 0;
     /* font-family: fantasy; */
-    font-size: 20px;
+    /* font-size: 20px; */
     /* color: #69140e; */
     }
   
