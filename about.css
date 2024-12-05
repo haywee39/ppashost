@@ -252,6 +252,7 @@ body{
   }
 
   .our-team p{
+    display: flex;
     margin-top: 2vh;
     text-align: center;
     width: 50vw;

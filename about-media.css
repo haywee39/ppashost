@@ -64,6 +64,41 @@
     font-size: 17px;
   }
   /* **************************************************8***** */
+  #team{
+    margin-top: 4vh;
+    height: auto;
+    width: 100vw;
+  }
+  .our-team{
+    width: 100vw;
+    height: 35vh;
+    background-color: yellow;
+  }
+  .our-team p{
+    display: flex;
+    /* height: 55vh; */
+    width: 50vw;
+    font-size: 17px;
+    background-color: red;
+  }
+
+  /* ************************************************************* */
+  #client{
+    height: auto;
+  }
+  .our-client p{
+    font-size: 17px;
+  }
+  .our-client p{
+    width: 95vw;
+  }
+
+  .our-client{
+    width: 100vw;
+    height: 70vh;
+    /* background-color: #f8de7e; */
+  }
+
 }
   /* ********************************************************************** */
 /* &&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&& */
