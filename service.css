@@ -222,27 +222,28 @@ color: #69140e;
 /* ************************************************************** */
 /* **************************** */
 .project {
+  margin-top: 15vh;
   position: relative;
   display: flex;
-  flex-direction: column;
+  justify-content: center;
   align-items: center;
+  flex-direction: column;
   width: 100vw;
-  height: 150vh;
+  height: 265vh;
   text-align: center;
-  /* background-color: blue; */
+  /* background-color: red; */
 }
 
 
 .project-head{
-  margin-top: 2vh;
   display: flex;
   flex-direction: column;
-  width: 70vw;
-  height: 40vh;
-  justify-content: center;
-  align-items: center;
-  /* background-color: yellow; */
+  width: 60vw;
+  height: 150vh;
+  
+   /* background-color: yellow; */
 }
+
 
 .project-head h1{
   font-family: fantasy;

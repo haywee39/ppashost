@@ -375,18 +375,17 @@ body{
   width: 100vw;
   height: 265vh;
   text-align: center;
-  background-color: red;
+  /* background-color: red; */
 }
 
 
 .project-head{
-  /* margin-top: 5vh; */
   display: flex;
   flex-direction: column;
   width: 60vw;
   height: 150vh;
   
-   background-color: yellow;
+   /* background-color: yellow; */
 }
 
 .project-head h1{
@@ -398,7 +397,7 @@ body{
   .project-head p{
     font-size: 20px;
     color: #69140e;
-    background-color: blue;
+    /* background-color: blue; */
     }
 
 .project-grid {
