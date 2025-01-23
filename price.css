@@ -1,0 +1,334 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+  scroll-behavior: smooth;
+}
+
+body{
+  overflow-x: hidden;
+}
+/* ********************************************************** */
+
+/* START:STYLING  FOR THE NAVBAR STARTS FROM HERE */
+
+.navbar{
+  position: fixed;
+  height: 13vh;
+  width: 100vw;
+  background: linear-gradient(100deg, #d58936  0%, #69140e 74%);
+}
+
+.navbar-brand img{
+  width: 75px;
+  height: 75px;
+  border-radius: 60px;
+  margin-left: 20px;
+}
+
+/* Align menu items to the right */
+ .navbar-nav {
+  margin-left: auto;
+}
+
+/* Add spacing between menu items */
+.navbar-nav .nav-item {
+  margin-left: .5rem;
+  padding-right: 30px;
+}
+
+.navbar-toggler-icon {
+  background-color: white; 
+}
+
+.navbar-nav .nav-link {
+  position: relative; /* Required for the underline effect */
+  color: white; /* Initial text color */
+  transition: color 0.3s ease;
+}
+
+.navbar-nav .nav-link.active {
+  color: white;
+}
+
+/* Hover text color change */
+.navbar-nav .nav-link:hover {
+  color: #d58936; /* Color on hover */
+}
+
+/* Underline effect on hover */
+.navbar-nav .nav-link::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  width: 0;
+  height: 2px;
+  background-color: #d58936; /* Color of the underline */
+  transition: width 0.3s ease, left 0.3s ease;
+}
+
+/* Expanding underline on hover */
+.navbar-nav .nav-link:hover::after {
+  width: 100%;
+  left: 0;
+}
+
+/* Keep underline on active page */
+.navbar-nav .nav-link.active::after {
+  color: white;
+  width: 100%;
+  left: 0;
+}
+
+.pricing{
+  border: #fff 2px solid;
+}
+
+.pricing:hover{
+  border:#d58936 2px solid
+}
+
+/* &&&&&&&&&&&&&&&&&&&&&&&&&&& */
+
+/* END: STYLING FOR THE NAVBAR ENDS HERE */
+
+/* ***************************************** */
+
+#prices{
+    padding-top: 10vh;
+    display: flex;
+    flex-direction:column;
+    width:100vw;
+    height: 70vh; 
+    align-items: center;
+    justify-content: center;
+    animation: listing 3s; 
+    /* background: lightcoral; */
+    
+  }
+  @keyframes listing {
+    0% {
+        transform: rotateX(0deg) scale(0);
+    }
+  
+  }
+  .price-list{
+    padding-top: 8vh;
+  
+    display: flex;
+    flex-direction: column;
+    width: 95vw;
+    height: 60vh;
+    align-items: center;
+    justify-content: center;
+    /* background-color: red; */
+  } 
+  
+  .price-list h1{
+  font-family: fantasy;
+  font-size: 35px;
+  color: #69140e;
+  }
+  
+  .line{
+    width: 100px;
+    height: 4px;
+    background-color: #69140e;
+  }
+  
+  
+  
+  .price-list p{
+    margin-top: 2vh;
+    text-align: center;
+    width: 55vw;
+    height: 37vh;
+    font-size: 20px;
+    color: #69140e;
+    /* background-color: blue; */
+  }
+  /* ************************************************** */
+/* Basic Styling for Menu Section */
+.menu-section {
+    /* margin-top: 10vh; */
+    display: flex;
+    flex-direction: column;
+    padding: 50px 20px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    background: #d58936;
+  }
+  
+  /* Menu Card Styles */
+  .menu-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .menu-card {
+    width: 370px;
+    height: 350px;
+    perspective: 1000px;
+    position: relative;
+    border-radius: 10px;
+    transition: transform 0.6s ease;
+  }
+  
+  .menu-card-front,
+  .menu-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #fff;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    backface-visibility: hidden;
+    border-radius: 10px;
+    overflow: hidden;
+  }
+  
+  .menu-card-front {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+    transform: rotateY(0);
+  }
+  
+  .menu-card-front img {
+    width: 100%;
+    height: 60%;
+    object-fit: cover;
+    border-radius: 10px 10px 0 0;
+  }
+  
+  .menu-card-front h5 {
+    /* font-size: 1.3em; */
+    color: #69140e;
+    margin: 10px 0;
+  }
+  
+  .details-btn {
+    margin-top: auto;
+    padding: 8px 15px;
+    font-size: 1em;
+    background: #69140e;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+  
+  .details-btn:hover {
+    background: #a91f1f;
+  }
+  
+  .menu-card-back {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 15px;
+    transform: rotateY(180deg);
+  }
+  
+  .menu-card-back p {
+    list-style: none;
+    padding: 0;
+    /* font-size: 0.9em; */
+    color: #69140e;
+  }
+  
+  .menu-card-back li {
+    padding: 5px 0;
+  }
+  
+  .back-btn {
+    padding: 8px 15px;
+    font-size: 1em;
+    background: #69140e;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+  
+  .back-btn:hover {
+    background: #a91f1f;
+  }
+  
+  /* Flip Effect */
+  .menu-card.flip .menu-card-front {
+    transform: rotateY(180deg);
+  }
+  
+  .menu-card.flip .menu-card-back {
+    transform: rotateY(0);
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ************************************************************************ */
+
+/* STYLING FOR THE FOOTER AREA  */
+footer{
+    display: flex;
+    width: 100vw;
+    height: 10vh;
+    color: white;  
+    justify-content: right;
+    align-items: center;
+    font-size: 16px;
+    background: linear-gradient(100deg, #d58936  0%, #69140e 74%);
+  }
+  
+  .foot{
+    display: flex;
+    width: 18vw;
+    height: 10vh;
+    color: white;  
+    justify-content: center;
+    place-items: center;
+    font-size: 16px;
+  }
+  
+  .foot a{
+    color: white;
+    text-decoration: none;  
+  }
+  .foot a:hover{
+    color: red;
+  }
+  
+  .tag{
+   text-shadow:2px 2px 2px grey;
+   animation:bayo 2s ease 1s infinite;
+  }
+  
+  @keyframes bayo{
+  
+   0%{
+      transform:rotateX(-45deg);
+  }
+   50%{
+      transform:rotateY(45deg);
+  }
+  } 

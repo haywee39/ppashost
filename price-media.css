@@ -1,0 +1,64 @@
+@media (width < 912px) {
+    .navbar {
+      height: 12vh;
+      width: 100vw;
+  }
+  
+  .navbar-brand img {
+      width: 65px;
+      height: 65px;
+      margin-left: 0;
+  }
+  
+  .navbar-collapse {
+      background-color: #69140e; /* Solid background for the collapsed menu */
+  }
+  
+  .navbar-nav .nav-link {
+      color: white; /* Ensure the text is visible */
+  }
+  
+  .dropdown-menu {
+      background-color: #69140e; /* Solid background for dropdown items */
+      border: none; /* Remove any borders */
+  }
+  
+  .dropdown-item {
+      color: white; /* Ensure dropdown items are visible */
+  }
+  
+  .dropdown-item:hover {
+      background-color: #d58936; /* Highlight on hover */
+      color: white;
+  }
+  
+  /* Optional: Add a shadow for better visibility */
+  .navbar-collapse,
+  .dropdown-menu {
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  }
+  
+        /* ************************************************* */
+      #prices{
+        padding-top: 7vh;
+        height: auto;
+      }
+     .price-list{
+      width: 100vw;
+      height: 85vh;
+     }
+     .price-list p{
+      width: 95vw;
+      height: 75vh;
+     }
+     /* ********************************************************* */
+
+
+
+
+
+
+
+
+
+    }

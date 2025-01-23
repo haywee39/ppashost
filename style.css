@@ -85,19 +85,29 @@ body{
   left: 0;
 }
 
+/* GET PRICE LIST BUTTON  */
+.pricing{
+  border: #fff 2px solid;
+}
+
+.pricing:hover{
+  border:#d58936 2px solid
+}
+
 /* &&&&&&&&&&&&&&&&&&&&&&&&&&& */
 
 /* END: STYLING FOR THE NAVBAR ENDS HERE */
 
 
 #home{
+  padding-top: 20vh;
   display: flex;
   flex-direction: column;
   width: 100vw;
   height: 100vh; 
   justify-content: center;
   align-items: center;
-  background-image: url(./pageswitback/ppasteam.jpg);
+  background-image: url(./pageswitback/Designer2.jpeg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center; 

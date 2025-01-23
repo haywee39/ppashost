@@ -89,6 +89,15 @@ body{
   left: 0;
 }
 
+/* GET PRICE LIST BUTTON  */
+.pricing{
+  border: #fff 2px solid;
+}
+
+.pricing:hover{
+  border:#d58936 2px solid
+}
+
 /* &&&&&&&&&&&&&&&&&&&&&&&&&&& */
 
 
