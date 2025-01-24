@@ -163,6 +163,10 @@ body{
     align-items: center;
     background: #d58936;
   }
+
+  .menu-section h2{
+    color: #69140e;
+  }
   
   /* Menu Card Styles */
   .menu-cards {
@@ -214,6 +218,10 @@ body{
     color: #69140e;
     margin: 10px 0;
   }
+
+  .menu-card-front p{
+    color: #69140e;
+  }
   
   .details-btn {
     margin-top: auto;
@@ -238,16 +246,31 @@ body{
     padding: 15px;
     transform: rotateY(180deg);
   }
+
+  .menu-card-back::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    /* background-image: url(./pageswitback/helmet.jpg); */
+    background-image: url(./pageswitback/ladywriting.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    /* background-attachment: fixed; */
+    opacity: 0.3;
+  }
+  .menu-card-back b, i{
+    color: #69140e;
+  }
   
   .menu-card-back p {
     list-style: none;
     padding: 0;
     /* font-size: 0.9em; */
     color: #69140e;
-  }
-  
-  .menu-card-back li {
-    padding: 5px 0;
   }
   
   .back-btn {
