@@ -103,11 +103,11 @@ body{
     display: flex;
     flex-direction:column;
     width:100vw;
-    height: 70vh; 
+    height: 65vh; 
     align-items: center;
     justify-content: center;
     animation: listing 3s; 
-    /* background: lightcoral; */
+    background: lightcoral;
     
   }
   @keyframes listing {
@@ -122,15 +122,15 @@ body{
     display: flex;
     flex-direction: column;
     width: 95vw;
-    height: 60vh;
+    height: 45vh;
     align-items: center;
     justify-content: center;
-    /* background-color: red; */
+    background-color: red;
   } 
   
   .price-list h1{
   font-family: fantasy;
-  font-size: 35px;
+  /* font-size: 35px; */
   color: #69140e;
   }
   
@@ -146,10 +146,10 @@ body{
     margin-top: 2vh;
     text-align: center;
     width: 55vw;
-    height: 37vh;
-    font-size: 20px;
+    height: 30vh;
+    /* font-size: 20px; */
     color: #69140e;
-    /* background-color: blue; */
+    background-color: blue;
   }
   /* ************************************************** */
  
