@@ -45,11 +45,11 @@
       }
      .price-list{
       width: 100vw;
-      height: 85vh;
+      height: auto;
      }
      .price-list p{
       width: 95vw;
-      height: 75vh;
+      height: auto;
      }
      /* ********************************************************* */
 
