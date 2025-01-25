@@ -107,7 +107,7 @@ body{
     align-items: center;
     justify-content: center;
     animation: listing 3s; 
-    background: lightcoral;
+    /* background: lightcoral; */
     
   }
   @keyframes listing {
@@ -125,7 +125,7 @@ body{
     height: 45vh;
     align-items: center;
     justify-content: center;
-    background-color: red;
+    /* background-color: red; */
   } 
   
   .price-list h1{
@@ -149,7 +149,7 @@ body{
     height: 30vh;
     /* font-size: 20px; */
     color: #69140e;
-    background-color: blue;
+    /* background-color: blue; */
   }
   /* ************************************************** */
  
