@@ -152,6 +152,7 @@ body{
     /* background-color: blue; */
   }
   /* ************************************************** */
+ 
 /* Basic Styling for Menu Section */
 .menu-section {
     /* margin-top: 10vh; */
@@ -163,9 +164,11 @@ body{
     align-items: center;
     background: #d58936;
   }
-
   .menu-section h2{
     color: #69140e;
+    background-color: white;
+    margin-bottom: 20px;
+    border-radius: 5px;
   }
   
   /* Menu Card Styles */
@@ -197,15 +200,6 @@ body{
     border-radius: 10px;
     overflow: hidden;
   }
-  
-  .menu-card-front {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    padding: 15px;
-    transform: rotateY(0);
-  }
   .menu-card-front::before{
     content: '';
     position: absolute;
@@ -214,12 +208,20 @@ body{
     left: 0;
     bottom: 0;
     background-image: url(./prjct-img/favrytpic.jpg);
-    /* background-image: url(./pageswitback/ladywriting.jpg); */
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
-    /* background-attachment: fixed; */
-    opacity: 0.3;
+    opacity: 0.2;
+    pointer-events:none
+  }
+  
+  .menu-card-front {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+    transform: rotateY(0);
   }
   
   .menu-card-front img {
@@ -270,14 +272,14 @@ body{
     right: 0;
     left: 0;
     bottom: 0;
-    /* background-image: url(./pageswitback/helmet.jpg); */
     background-image: url(./pageswitback/ladywriting.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
-    /* background-attachment: fixed; */
     opacity: 0.3;
+    pointer-events:none
   }
+
   .menu-card-back b, i{
     color: #69140e;
   }
