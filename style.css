@@ -13,6 +13,46 @@ body{
   overflow-x: hidden;
 }
 /* ********************************************************** */
+.free-gift{
+  position: absolute;
+  width: 130px;
+  height: 130px;
+  background-color: red;
+  text-align: center;
+  top: 15%;
+  right: 2%;
+  z-index: 1;
+  animation:gift 2s ease 3s infinite;  
+}
+
+@keyframes gift{
+
+ 0%{
+    transform:rotateY(0deg);
+}
+25%{
+  transform:rotateY(90deg);
+}
+ 50%{
+    transform:rotateX(0deg);
+}
+75%{
+  transform:rotateX(60deg);
+}
+100%{
+  transform:rotateX(0deg);
+}
+}
+.free-gift img{
+  width: 100%;
+  height: 100%;
+}
+.free-gift a{
+  color: yellow;
+  text-decoration: none;
+  text-shadow: red 2px 2px 2px;    
+}
+
 
 /* START:STYLING  FOR THE NAVBAR STARTS FROM HERE */
 
